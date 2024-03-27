@@ -1,0 +1,64 @@
+Section 1 : Preview
+Introduction About Node JS & Bit of Sequelize
+Step by Step Playlist plan to proceed in APIs Development
+
+
+Section 2 : NodeJS 
+Node installation in System
+Run First Program in Node
+Modules & "module.exports" in Node JS
+About Node Package Manager (NPM)
+
+
+Section 3 : Express
+Express JS Basics - Needs to Know
+Express Server and Routes
+Listen Request Methods in Express
+
+
+Section 4 : ORM with NodeJS
+Installation of Sequelize Package, Database Connection & Test
+How can we work with Models in Sequelize
+Alternative way to create Models in Sequelize
+Sequelize - About "create()" Method
+Sequelize - About "bulkCreate()" Method
+Sequelize - About "findAll()" Method
+Sequelize - About "update()" Method
+Sequelize - About "destroy()" Method
+Sequelize - How can we Run Raw Queries
+
+
+Section 5 : JWT in NodeJS
+About JWT and it's Basics in detailed
+New Application Setup Installation for JWT APIs
+Register user API
+Login api with JWT Token - JWT.sign()
+JWT Basic Configurations
+Validate JWT Token - JWT.verify()
+Common Middleware for JWT Token
+
+
+Section 6 : Sequelize CLI with NodeJS
+About Sequelize CLI & Installation
+Sequelize "init" Command for Config/Models/Migrations/Seeders
+Folder Structure of Sequelize CLI
+Sequelize CLI - Create & Drop Database command
+Sequelize CLI - Create Model/Migration & Migrate to Database
+Sequelize CLI - Rollback Migrations
+Sequelize CLI - Create a Simple Seeder
+Sequelize CLI - Run & Test Specific Seeder
+Sequelize CLI - Deletes Data from Database
+Sequelize CLI - Faker NPM Package in Seeder
+Sequelize CLI - Application Settings
+Sequelize CLI - Models "findAll()" Object Properties
+Sequelize CLI - Models Where Conditional Statements
+Sequelize CLI - More about "where" Conditional Statements
+Sequelize CLI - Register Student API
+Sequelize CLI - Student Login API
+Sequelize CLI - Get Student Profile Data using Token
+Sequelize Association Basics & One to One Relationship
+Sequelize Association - One to Many Relationship
+Sequelize Association - Many to Many Relationship
+Sequelize ORM Model Validation
+About PM2 In Node JS Application
+

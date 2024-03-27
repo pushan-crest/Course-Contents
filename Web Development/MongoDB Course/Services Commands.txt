@@ -1,0 +1,13 @@
+//  Start services from terminal
+net stop MongoDB
+
+
+//  Stop services from terminal
+net start MongoDB
+
+
+// start the shell
+mongosh
+
+// changing the port
+mongod --port 27017

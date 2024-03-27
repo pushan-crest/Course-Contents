@@ -1,0 +1,283 @@
+Section - 1: Quick Start
+What is Docker in 2023? The Three Innovations
+Quick Container Run
+Why Docker? Why Now in 2023?
+
+Section - 2: Course Introduction
+Course Roadmap (overview)
+Getting Course Resources (GitHub Repo)
+Course Chat with Students Learning Containers
+YouTube Live Q&A with Bret
+The Big FAQ
+
+Section - 3: The Best Way to Setup Docker for your OS
+Installing The Right Docker for this course
+Installing Docker: The Fast Way
+Docker for Windows: Setup and Tips
+Docker for Mac: Setup and Tips
+Docker for Linux Desktop: Setup and Tips
+Docker for Linux Server: Setup and Tips
+VS Code for DevOps, Docker, and YAML Editing
+Docker Version and Products Changes
+
+Section - 4: Creating and Using  Containers like a Boss
+Check Our Docker Install and Config
+Starting a Nginx Web Server
+Debrief: What Happens When We Run a Container
+Container VS. VM: It's Just a Process
+Windows Containers: Should You Consider Them?
+Assignment: Manage Multiple Containers
+Assignment Answers: Manage Multiple Containers
+Container Commands
+What's Going On In Containers: CLI Process Monitoring
+Use MariaDB rather than MySQL
+Getting a Shell Inside Containers: No Need for SSH
+Docker Networks: Concepts for Private and Public Comms in Containers
+FIXME: Change In Official Nginx Image Removes Ping
+Docker Networks: CLI Management of Virtual Networks
+Docker Networks: DNS and How Containers Find Each Other
+Quiz 2: More Container Commands
+Assignment: Using Containers for CLI Testing
+Assignment Answers: Using Containers for CLI Testing
+Changes To Upcoming Assignment
+Assignment: DNS Round Robin Test
+Assignment Answers: DNS Round Robin Test
+
+Section - 5: Container Images, Where To Find them and how to build them
+What's In An Image (and What Isn't)
+The Mighty Hub: Using Docker Hub Registry Images
+Images and Their Layers: Discover the Image Cache
+Image Tagging and Pushing to Docker Hub
+Building Images: The Dockerfile Basics
+Building Images: Running Docker Builds
+Building Images: Extending Official Images
+Quiz 3: Images
+Assignment: Build Your Own Dockerfile and Run Containers From It
+Assignment Answers: Build Your Own Dockerfile and Run Containers From It
+Using Prune to Keep Your Docker System Clean (YouTube)
+
+Section - 6: Persistent Data: Volumnes, Volumes, Volumes
+Container Lifetime & Persistent Data
+Persistent Data: Data Volumes
+Shell Differences for Path Expansion
+Persistent Data: Bind Mounting
+Quiz 4: Persistent Data
+Database Passwords in Containers
+Updated Postgres Version for Next Video Assignment
+Assignment: Database Upgrades with Named Volumes
+Assignment Answers: Update for Recent Postgres Changes
+Assignment Answers: Database Upgrades with Named Volumes
+File Permissions Across Multiple Containers
+Assignment: Edit Code Running In Containers With Bind Mounts
+Assignment Answers: Edit Code Running In Containers With Bind Mounts
+
+Section - 7: Making It Easier with docker compose: the multi-container tool
+Docker Compose and The docker-compose.yml File
+Compose V2
+Trying Out Basic Compose Commands
+Version Dependencies in Multi-Tier Apps
+Compose Assignments
+Compose-Assignment-1: Build a Compose File For a Multi-Container Project
+Compose-Assignment-1 Answers: Build a Compose File For a Multi-Container Project
+Adding Image Building to Compose Files
+Using MariaDB rather than PostgreSQL
+Compose-Assignment-2: Compose For Image Building
+Compose-Assignment-2 Answers: Compose For Image Building
+Quiz 5: Docker Compose
+
+Section - 8: Swarm Intro and Creating a 3-Node Swarm Cluster
+Swarm Mode: Built-In Orchestration
+Create Your First Service and Scale It Locally
+UI Change For Service Create/Update
+Use Multipass to create Docker, Swarm, and K8s VMs
+Creating a 3-Node Swarm Cluster
+Quiz 6: Swarm Mode Basics
+
+Section - 9: Swarm Basic Features and How to use them in your workflow
+Sections Requirements for Swarm, Drupal, and Postgres
+Scaling Out with Overlay Networking
+Scaling Out with Routing Mesh
+Quiz 7: Docker Swarm Networking
+Assignment: Create A Multi-Service Multi-Node Web App
+Assignment Answers: Create A Multi-Service Multi-Node Web App
+Swarm Stacks and Production Grade Compose
+Secrets Storage for Swarm: Protecting Your Environment Variables
+Using Secrets in Swarm Services
+Using Secrets with Swarm Stacks
+Assignment: Create A Stack with Secrets and Deploy
+Assignment Answers: Create A Stack with Secrets and Deploy
+
+
+Section - 10: Swarm App Lifecycle
+Using Secrets With Local Docker Compose
+Full App Lifecycle: Dev, Build and Deploy With a Single Compose Design
+Service Updates: Changing Things In Flight
+Healthchecks in Dockerfiles
+Quiz 8: Swarm App Lifecycle
+Info on Swarm Mastery
+
+Section - 11: Container Registries: Image storage and distribution
+Docker Hub: Digging Deeper
+Understanding Docker Registry
+Run a Private Docker Registry
+Assignment: Secure Docker Registry With TLS and Authentication
+Using Docker Registry With Swarm
+Third Party Image Registries
+Quiz 9: Container Registries
+
+Section - 12: Docker in production
+My DockerCon Talk on Docker and Swarm in Production
+The Future of Swarm
+Swarm Raft Quorum and Recovery (Laura Frank from DockerCon 2017)
+
+Section - 13: The What and Why of Kubernetes
+Kubernetes Intro
+What Is Kubernetes
+Why Kubernetes
+Kubernetes vs Swarm
+Quiz 10: The What and Why of Kubernetes
+
+Section - 14: Kubernetes Architecture and Install
+Section Intro
+Kubernetes Architecture Terminology
+Kubernetes Local Install
+Kubernetes Container Abstractions
+Quiz 11: Kubernetes Architecture and Install
+
+Section - 15: Your First Pods
+Kubectl run, create, and apply
+Your First Pod With kubectl run
+Cheat Sheets for Kubectl
+Your First Deployment With kubectl create
+Scaling ReplicaSets
+1.18 Changes to Kubectl Run
+Quiz 12: Your First Pods.
+
+
+Section - 16: Inspecting Kubernetes Resources
+Section Intro
+Inspecting Resources with Get
+Inspecting Resources with Describe
+Watching Resources
+Container Logs in Kubernetes
+Quiz 13: Inspecting Kubernetes Resources
+
+Section - 17: Exposing Kuberenetes Ports
+Section Intro
+119. Service Types
+120. MicroK8s and DNS for Services
+121. Creating a ClusterIP Service
+122. Running Netshoot in Kubernetes
+123. Creating a NodePort and LoadBalancer Service
+124. Kubernetes Services DNS
+
+Section - 18: Kuberenetes Management Techniques
+Section Intro
+126. YAML Generators in kubectl Commands
+127. Imperative vs. Declarative
+128. Three Management Approaches
+
+Section - 19: Moving to Declarative Kubernetes YAML
+Section Intro
+130. Kubectl apply
+131. Kubernetes Configuration YAML
+132. Building Your YAML Files
+133. Building Your YAML Spec
+134. Dry Run CLI Changes
+135. Dry Runs and Diff's
+136. Labels and Label Selectors
+
+Section - 20: Your Next Steps and The Future of Kubernetes
+Section Intro
+138. Storage in Kubernetes
+139. Ingress
+140. CRD's and The Operator Pattern
+141. Higher Deployment Abstractions
+142. Kubernetes Dashboard
+143. Namespaces and Context
+144. Future of Kubernetes
+
+Section - 21: Automated CI Workflows
+Section Intro: Automation
+The Pull Request
+Automation is the Glue of DevOps
+Basic PR Workflow
+Intermediate PR Workflow
+Advanced PR Workflow
+
+Section - 22: Github Actions Workflow Examples
+Section Intro
+Assignments for this Section
+Add Basic Docker Build
+Add BuildKit Cache
+Add Multi-Platform Builds
+Add Metadata and Dynamic Tags
+Add GitHub Comments
+Add CVE Scanning of Images
+Add CVE Scan Blocking
+Add Unit & Integration Testing
+Add Kubernetes Smoke Test
+Bonus: Add Job Parallelization to GHA
+Implement These Automations
+
+Section - 23: Docker Security Good Defaults and Tools
+Section Intro: Top 10 Security Steps for Docker
+Docker Cgroups and Namespaces
+Docker Engine's Out-Of-The-Box Security Features
+Docker Bench, The Host Configuration Scanner
+Using USER in Dockerfiles to Avoid Running as Root
+Docker User Namespaces for Extra Host Security
+Code Repo and Image Scanning for CVE's
+Sysdig Falco, Content Trust, and Custom Seccomp and AppArmor Profiles
+Docker Rootless Mode
+The Security Top 10 Differences for Windows Containers
+What are Distroless Images?
+Are Swarm and Kubernetes Secrets Really Secure?
+
+Section - 24: Docker 19.03 Release New Features
+Section Intro
+BuildKit and the new Docker buildx CLI
+Docker Context and SSH Connections
+Docker App and Image Packaging of Compose YAML
+Rootless Mode in Docker Engine
+Docker Desktop Enterprise
+Docker Desktop Enterprise Clusters
+
+Section - 25: DevOps and Docker Clips
+DevOps and Docker Talk Intro
+Alpine Base Images. Are They Really More Secure?
+Dealing With Non-root Users In Containers and File Permissions
+Apache Web Server Design. Many Sites In One Container, or Many Containers?
+Docker Network IP Subnet Conflicts with Outside Networks
+Raspberry Pi Development in Docker
+Windows 10 Containers Get Process Isolation
+Should You Move Postgres to Containers
+Using Supervisor To Run Multiple Apps In A Container
+Should You Use Docker Compose or Swarm For A Single Server?
+Docker Environment Configs, Variables, and Entrypoints
+Java and JBoss in Containers. One .war File Per Container?
+TLS in Dev and Prod with Docker
+Multiple Docker Images From One Git Repo
+Docker + ARM, Using Raspberry Pi or AWS A1 Instances with Docker
+Docker and Swarm RBAC Options
+ENTRYPOINT vs. CMD, what's the difference in Dockerfiles
+How to Use External Storage in Docker
+Can I Turn a VM into a Container?
+Startup Order With Multi-Container Apps
+
+Section - 26: Dockerfiles and Docker Images in 2022
+DockerCon 2022 Talk
+Node.js Rocks in Docker
+
+Section - 27: Dockerfile and Compose File Reviews
+Section Intro - My Reviews Of Your Dockerfiles
+Real World PHP Dockerfile Review
+Real World PHP, Apache, and Alpine Dockerfile Review
+Real World PHP and FPM Dockerfile Review
+Real World Elasticsearch Compose Stack File
+
+Section - 28: Extra's, Common Questions, and Resources
+Node.js Good Defaults For Docker
+PHP and Docker Good Defaults Project Template
+About the DCA (Docker Certificated Associate) and Kubernetes Certifications
+Bonus

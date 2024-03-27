@@ -1,0 +1,5 @@
+sudo microk8s.refresh-certs --cert ca.crt
+
+and
+
+sudo microk8s.refresh-certs --cert server.crt

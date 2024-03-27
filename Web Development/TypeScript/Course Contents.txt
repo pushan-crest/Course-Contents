@@ -1,0 +1,188 @@
+- Section 1 - Getting Started
+- Welcome to the Course
+- What Is TypeScript Why Should You Use It
+- Installing Using TypeScript
+- TypeScript Advantages Overview
+- Course Outline
+- How To Get The Most Out Of The Course
+- Setting Up A Code Editor IDE
+- The Course Project Setup
+
+
+- Section 2 - TypeScript Basics Basic Types
+- Using Types
+- TypeScript Types vs JavaScript Types
+- Working with Numbers Strings Booleans
+- Type Assignment Type Inference
+- Object Types
+- Arrays Types
+- Working with Tuples
+- Working with Enums
+- The any Type
+- Union Types
+- Literal Types
+- Type Aliases Custom Types
+- Function Return Types void
+- Functions as Types
+- Function Types Callbacks
+- The unknown Type
+- The never Type
+
+
+- Section 3 - The TypeScript Compiler and its Configuration
+- Using Watch Mode
+- Compiling the Entire Project Multiple Files
+- Including Excluding Files
+- Setting a Compilation Target
+- Understanding TypeScript Core Libs
+- More Configuration Compilation Options
+- Working with Source Maps
+- rootDir and outDir
+- Stop Emitting Files on Compilation Errors
+- Strict Compilation
+- Code Quality Options
+- Debugging with Visual Studio Code
+
+
+- Section 4 - Nextgeneration JavaScript TypeScript
+- let and const
+- Arrow Functions
+- Default Function Parameters
+- The Spread Operator
+- Rest Parameters
+- Array Object Destructuring
+- How Code Gets Compiled Wrap Up
+
+
+- Section 5 - Classes Interfaces
+- What are Classes
+- Creating a First Class
+- Compiling to JavaScript
+- Constructor Functions The this Keyword
+- private and public Access Modifiers
+- Shorthand Initialization
+- readonly Properties
+- Inheritance
+- Overriding Properties The protected Modifier
+- Getters Setters
+- Static Methods Properties
+- Abstract Classes
+- Singletons Private Constructors
+- Classes A Summary
+- A First Interface
+- Using Interfaces with Classes
+- Why Interfaces
+- Readonly Interface Properties
+- Extending Interfaces
+- Interfaces as Function Types
+- Optional Parameters Properties
+- Compiling Interfaces to JavaScript
+
+
+- Section 6 - Advanced Types
+- Module Introduction
+- Intersection Types
+- More on Type Guards
+- Discriminated Unions
+- Type Casting
+- Index Properties
+- Function Overloads
+- Optional Chaining
+- Nullish Coalescing
+- Wrap Up
+
+
+
+- Section 7 - Generics
+- Builtin Generics What are Generics
+- Creating a Generic Function
+- Working with Constraints
+- Another Generic Function
+- The keyof Constraint
+- Generic Classes
+- A First Summary
+- Generic Utility Types
+- Generic Types vs Union Types
+
+
+- Section 8 - Decorators
+- A First Class Decorator
+- Working with Decorator Factories
+- Building More Useful Decorators
+- Adding Multiple Decorators
+- Diving into Property Decorators
+- Accessor Parameter Decorators
+- When Do Decorators Execute
+- Returning and changing a Class in a Class Decorator
+- Other Decorator Return Types
+- Example Creating an Autobind Decorator
+- Validation with Decorators First Steps
+- Validation with Decorators Finished
+
+
+- Section 9 - Practice Time Lets build a Drag Drop Project
+- Getting Started
+- DOM Element Selection OOP Rendering
+- Interacting with DOM Elements
+- Creating Using an Autobind Decorator
+- Fetching User Input
+- Creating a ReUsable Validation Functionality
+- Rendering Project Lists
+- Using a Getter
+- Utilizing Interfaces to Implement Drag Drop
+- Drag Events Reflecting the Current State in the UI
+- Adding a Droppable Area
+- Finishing Drag Drop
+- Wrap Up
+
+
+- Section 10 - Modules Namespaces
+- Module Introduction
+- Writing Module Code Your Options
+- Working with Namespaces
+- Organizing Files Folders
+- A Problem with Namespace Imports
+- Using ES Modules
+- Understanding various Import Export Syntaxes
+- How Does Code In Modules Execute
+
+
+- Section 11 - Using Webpack with TypeScript
+- What is Webpack Why do we need it
+- Installing Webpack Important Dependencies
+- Adding Entry Output Configuration
+- Adding TypeScript Support with the tsloader Package
+- Finishing the Setup Adding webpackdevserver
+- Adding a Production Workflow
+
+
+- Section 12 - 3rd Party Libraries TypeScript
+- Module Introduction
+- Using JavaScript Libraries with TypeScript
+- Using declare as a Last Resort
+- No Types Needed classtransformer
+- TypeScriptembracing classvalidator
+- Wrap Up
+
+
+- Section 13 - Time to Practice Lets build a Select Share a Place App incl Google Maps
+- Project Setup
+- Getting User Input
+- Setting Up a Google API Key
+- Using Axios to Fetch Coordinates for an Entered Address
+- Rendering a Map with Google Maps incl Types
+
+
+- Section 14 - Reactjs TypeScript
+- Setting Up a React TypeScript Project
+- How Do React TypeScript Work Together
+- Working with Props and Types for Props
+- Getting User Input with refs
+- CrossComponent Communication
+- Working with State Types
+- Managing State Better
+- More Props State Work
+- Adding Styling
+- Types for other React Features eg Redux or Routing
+
+

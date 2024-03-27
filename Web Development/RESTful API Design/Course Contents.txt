@@ -1,0 +1,106 @@
+Section - 1: Course Introduction
+Designing RESTful API Quick Guide
+RESTful API Design Document Template
+Postman Collection File
+
+Section - 2: Getting Started with Designing APIs
+Introduction
+What is API?
+Why Should You Design API?
+STEP 1: Create a New API
+Types of API
+STEP 2: Identify the Type of API
+Should You Change the Existing API Design?
+Quiz 1: ACTIVITY: Getting Started with Designing APIs
+
+Section - 3: Overview of RESTful APIs
+Introduction
+How HTTP Works?
+Parts of a HTTP Request
+DEMO: Parts of a HTTP Request
+What is REST?
+DEMO: API in Postman
+URL vs URI
+STEP 3: Identify the Server Base URL
+Quiz 2: ACTIVITY: Overview of RESTful APIs
+
+Section - 4: Designing API Resources
+Introduction
+Resources should be Nouns
+STEP 4: Identify the Resources
+Resources should be Collections
+STEP 5: Have the Resources as Plural
+STEP 6: Define the Resource Models
+Use Unique Identifiers
+STEP 7: Select the Identifier for Each Resource
+Non-resource Data should be Query Parameters
+Quiz 3: ACTIVITY: Designing API Resources
+
+Section - 5: Designing Associations between Resources
+Introduction
+Defining Relationships between Resources
+STEP 8: Identify the Association for Each Resource
+URL Shouldn’t be Complex
+STEP 9: Check for the URL Complexity
+Combine Related Resources
+Quiz 4: ACTIVITY: Designing Associations
+
+Section - 6: Designing API Operations
+Introduction
+Overview of HTTP Operations
+Common HTTP Operations
+Selecting Operations based on Individual Item or Collection
+Idempotent Methods
+Differences between POST, PUT, and PATCH
+STEP 10: Identify the Operations for Each Resource
+Quiz 5: ACTIVITY: Designing API Operations
+
+Section - 7: Designing API Requests
+Introduction
+Designing Request Parameters
+STEP 11: Identify the Parameters Required for the Operation
+Designing Request Content
+STEP 12: Identify the Content Type of Request for the Operation
+STEP 13: Identify the Request Body for the Operation
+Quiz 6: ACTIVITY: Designing API Requests
+
+Section - 8: Designing API Responses
+Introduction
+HTTP Status Codes
+Designing Status Codes in Responses
+STEP 14: Identify the HTTP Status Codes for the Operation
+Choosing the Format of Responses
+STEP 15: Identify the Content Type of Response for the Operation
+Designing Response Body
+STEP 16: Identify the Response Body for the Operation
+Designing Error Handling
+STEP 17: Handle Errors for the Operation
+Quiz 7: ACTIVITY: Designing API Responses
+
+Section - 9: Deesign for Filtering, Pagination and Sorting
+Introduction
+Support for Filtering Data
+STEP 18: Identify the Need for Filtering and Add If Needed
+Support for Pagination of Data
+STEP 19: Identify the Need for Pagination and Add If Needed
+Support for Sorting Data
+STEP 20: Identify the Need for Sorting and Add If Needed
+
+Section - 10: Designing API Versions
+Introduction
+Why you Should Version APIs?
+Ways to Version APIs
+Approach 1: No versioning
+Approach 2: URL Versioning
+Approach 3: Query String Versioning
+Approach 4: Header Versioning
+Approach 5: Media Type Versioning
+Which Versioning Approach to Use?
+STEP 21: Identify the API Versioning Scheme and Set the API Version
+
+Section - 11: ASSIGNMENT: Working with Students
+ACTIVITY: Getting Started with Designing APIs
+ACTIVITY: Overview of RESTful APIs
+ACTIVITY: Designing API Resources
+ACTIVITY: Designing Associations between Resources
+Course Conclusion

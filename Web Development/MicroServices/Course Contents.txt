@@ -1,0 +1,17 @@
+Section - 1: Microservices - Introduction
+Microservices - Introduction to Monolith
+Microservices - Issues in Monoliths
+
+Section - 2: Microservices - Fundamentals
+Microservices - Architecture Fundamentals
+
+Section - 3: Microservices - Evolution & Differences
+Microservices - Evolution of Architecture : Monolith to Microservices
+Microservices - The differences between SOA and Microservices
+
+Section - 4: Microservices - Benefits, Challenges & Characteristics
+Microservices - Benefits
+Microservices - Challenges
+Microservices - Characteristics
+
+Section - 5: Microservices - Conclusion

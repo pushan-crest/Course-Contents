@@ -1,0 +1,25 @@
+## Assignment Answers: Using Containers for CLI Testing
+
+docker container run --rm -it centos:7 bash
+
+docker ps -a
+
+docker container run --rm -it ubuntu:14.04 bash
+
+docker ps -a
+
+## Assignment Answers: DNS Round Robin Testing
+
+docker network create dude
+
+docker container run -d --net dude --net-alias search elasticsearch:2
+
+docker container ls
+
+docker container run --rm -- net dude alpine nslookup search
+
+docker container run --rm --net dude centos curl -s search:9200
+
+docker container ls
+
+docker container rm -f TAB COMPLETION

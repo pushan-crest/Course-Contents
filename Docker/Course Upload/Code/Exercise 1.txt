@@ -1,0 +1,40 @@
+=================== Exercise 1 =======================================================================
+
+• docs.docker.com and --help are your friend
+• Run a nginx, a mysql, and a httpd (apache) server
+• Run all of them --detach (or -d), name them with --name
+• nginx should listen on 80: 80, httpd on 8080: 80, mysql on 3306: 3306
+• When running mysql, use the --env option (or -e) to pass in MYSQL RANDOM ROOT PASSWORD=yes
+• Use docker container logs on mysql to find the random password it created on startup
+• Clean it all up with docker container stop and docker container rm (both can accept multiple names or ID's)
+• Use docker container Is to ensure everything is correct before and after cleanup
+
+=======================================================================================================
+
+Answers
+
+docker container run -d -p 3306:3306 --name db -e MYSQL_RANDOM_ROOT_PASSWORD=yes MYSQL_RANDOM_ROOT_PASSWORD
+
+docker container logs db
+
+docker container run -d --name webserver -p 8080:80 httpd
+
+docker ps
+
+docker container run -d --name proxy -p 80:80 nginx
+
+docker ps
+
+docker container ls
+
+docker container stop TAB COMPLETION
+
+docker ps -a
+
+docker container ls -a
+
+docker container rm
+
+docker ps -a
+
+docker image ls
